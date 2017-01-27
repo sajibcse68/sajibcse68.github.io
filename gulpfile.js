@@ -54,6 +54,12 @@ const paths = {
     destDir: 'dist/templates'
   },
 
+  css: {
+    files: ['css/**/**.css'],
+    srcDir: 'css',
+    destDir: 'dist/css'
+  },
+
   scss: {
     files: ['scss/**/*.scss'],
     srcDir: 'scss',
